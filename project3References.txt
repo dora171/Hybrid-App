@@ -1,0 +1,16 @@
+https://openweathermap.org/current
+
+https://developers.google.com/maps/documentation
+
+https://developers.google.com/maps/documentation/timezone/start
+
+https://console.cloud.google.com/google/maps-apis
+
+https://maps.googleapis.com
+
+
+https://openweathermap.org/api
+
+
+https://www.flaticon.com/home 
+
