@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <title>My Map</title>
+   <meta name="viewport" content="initial-scale=1.0">
+   <meta charset="utf-8">
+   <link rel="stylesheet" href="css/index.css">
+
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <script src="js/index.js"></script>
+</head>
+
+<body>
+   <!-- container with rows and columns where are icons for each item -->
+   <!-- icons are used from flaticon.com -->
+   <div class="container">
+      <div class="row">
+         <img class="MyClass123" height="37px" src="img/cloudy (1).png" />
+         <div class="col-lg-2 text-center" id="temp"></div>
+         <img class="MyClass123" height="37px" src="img/house.png" />
+         <div class="col-lg-2 text-center" id="city"></div>
+         <img class="MyClass123" height="37px" src="img/clock (2).png" />
+         <div class="col-lg-2 text-center" id="time"></div>
+         <img class="MyClass123" height="37px" src="img/lati.png" />
+         <div class="col-lg-2 text-center" id="latitude"></div>
+         <img class="MyClass123" height="37px" src="img/zone (1).png" />
+         <div class="col-lg-2 text-center" id="longitude"></div>
+      </div>
+   </div>
+   <!-- here google map starts -->
+   <div id="map"></div>
+
+   <!-- options to choose: Zagreb, Rochester, Rovinj and Dubrovnik, when app load, it takes you current position and displays information -->
+   <div class="form-group">
+      <label for=""></label>
+      <select class="form-control" name="form" id="selects">
+         <option value="zagreb">Zagreb</option>
+         <option value="rochester">Rochester</option>
+         <option value="rovinj">Rovinj</option>
+         <option value="dubrovnik">Dubrovnik</option>
+      </select>
+   </div>
+   <!-- google api key -->
+   <script src="https://maps.googleapis.com/maps/api/js?key=yourKey&callback=initMap"
+      async defer></script>
+
+</body>
+
+</html>
